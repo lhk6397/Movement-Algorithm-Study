@@ -8,6 +8,5 @@ def solution(lottos, win_nums):
             cnt += 1
         if l == 0:
             cnt_zero += 1
-
     answer = [rank[cnt+cnt_zero], rank[cnt]]
     return answer
