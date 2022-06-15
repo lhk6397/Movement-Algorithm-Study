@@ -4,8 +4,9 @@ def solution(numbers, hand):
               [4, 5, 6],
               [7, 8, 9],
               ['*', 0, '#']]
-    place = {"L":'*', "R":'#'}
+    place = {"L":'*', "R":'#'} # 손가락 위치
     for number in numbers:
+        # number가 1,4,7 또는 3,6,9 이면 손가락 확정
         if number == 1 or number == 4 or number == 7:
             place["L"] = number
             answer.append("L")
@@ -13,6 +14,7 @@ def solution(numbers, hand):
             place["R"] = number
             answer.append("R")
         else:
+            # number가 2,5,8,0 일 때
             current_L = []
             current_R = []
             target = []
