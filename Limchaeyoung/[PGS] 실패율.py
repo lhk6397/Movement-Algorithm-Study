@@ -9,7 +9,6 @@ def solution(N, stages):
             break
         fail[x] = stages.count(x)/n
         n -= stages.count(x)
-
     for x in range(1, N):
         for y in range(x+1, N+1):
             if fail[x] < fail[y]:
