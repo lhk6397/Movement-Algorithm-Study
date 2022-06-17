@@ -13,7 +13,6 @@ def solution(id_list, report, k):
         reporter.append(i.split()[0])
         accused.append(i.split()[1])
     r_counters = collections.Counter(accused)
-
     for key, value in r_counters.items():
         if value >= k:
             r_list = [idx for idx, value in enumerate(accused) if value == key]
