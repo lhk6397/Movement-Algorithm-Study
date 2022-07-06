@@ -1,9 +1,11 @@
-import java.util.*;
+import java.util.Arrays;
 
 class Solution {
-    public int[] solution(int[] lottos, int[] win_nums) {
-        int[] answer = {0,0};
-        int zero=0;
+	
+	public int[] solution(int[] lottos, int[] win_nums) {
+		
+		int[] answer = {0,0};
+		int zero=0;
 		
 		Arrays.sort(lottos);
 		Arrays.sort(win_nums);
@@ -32,7 +34,7 @@ class Solution {
 			else if(answer[i]==2) answer[i]=5;
 			else answer[i]=6;
 		}
-        
-        return answer;
-    }
+		
+		return answer;
+	}
 }
