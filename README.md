@@ -1,4 +1,4 @@
-# Movement-Algorithm-Strudy
+# Movement-Algorithm-Study
 ###  무브먼트 학생회 알고리즘 문제풀이 스터디
 
 매주 풀 문제를 자유롭게 최소 2문제 이상 정한 후 깃허브에 올리는 방식
