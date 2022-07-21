@@ -5,7 +5,6 @@ def point_length(p1, p2):
     c = abs(a) + abs(b)
     return c
 
-
 def solution(numbers, hand):
     geometry = {
         1: (0, 0),
