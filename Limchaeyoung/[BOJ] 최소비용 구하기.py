@@ -1,4 +1,3 @@
-# https://www.acmicpc.net/problem/1916
 import heapq
 import sys
 input = sys.stdin.readline
