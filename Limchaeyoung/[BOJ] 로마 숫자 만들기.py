@@ -7,7 +7,6 @@ def btr(v, cnt):
         numbers.append(rome[i])
         btr(i, cnt+1)
         numbers.pop()
-
 rome = [1, 5, 10, 50]
 n = int(input())
 numbers = []
