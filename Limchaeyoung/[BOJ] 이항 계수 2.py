@@ -7,5 +7,4 @@ for i in range(2, n+1):
         com.append(dp[i-1][j-1]+dp[i-1][j])
     com.append(1)
     dp.append(com)
-
 print(dp[n][k]%10007)
